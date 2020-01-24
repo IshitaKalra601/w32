@@ -15,7 +15,7 @@ public class W32 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       rectangle r1 = new rectangle(4,5);
+       rectangle r1 = new rectangle(4,5); // Jan 24
        rectangle r2 = new rectangle(4,5);
        int a = r1.compareTo(r2);
        if(a==1){
